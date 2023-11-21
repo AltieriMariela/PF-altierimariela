@@ -1,0 +1,60 @@
+h1 {
+    font-family: 'Young Serif', serif;
+    background-color: rgb(196, 172, 218);
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    font-weight: 350px;
+    height: 350px;
+
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-flow: row wrap;
+    display: grid;
+
+    img {
+        margin: 40px 40px;
+        width: 750px;
+    
+    }
+}
+
+
+ul {
+    list-style-type: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pagina-principal {
+    background-color: rgb(128, 165, 214);
+    display: grid;
+    flex-flow: row wrap;
+}
+
+.menu {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+    ul {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+ }
+
+
+.frase-coco-chanel {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+
