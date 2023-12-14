@@ -3,7 +3,7 @@
     justify-content: $j-c;
 }
 
-@mixin color-decoration ($t-d, $c){
+@mixin color-decoration ($t-d, $c) {
     text-decoration: $t-d;
     color: $c;
 }
@@ -19,10 +19,32 @@
 
 @mixin grid-columns-areas {
     display: grid;
-    grid-template-columns:1fr 1fr 1fr;
-    grid-template-areas:"texto texto texto"
-    "img1 img2 img3"
-    "img4 img5 img6"
-    "img7 img8 .";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "texto texto texto"
+        "img1 img2 img3"
+        "img4 img5 img6"
+        "img7 img8 .";
 }
 
+@mixin grid-columns-areas-mq1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "texto texto"
+        "img1 img2"
+        "img3 img4"
+        "img5 img6"
+        "img7 img8";
+}
+
+@mixin grid-columns-areas-mq2 {
+    grid-template-columns: 1fr;
+    grid-template-areas: "texto"
+        "img1"
+        "img2"
+        "img3"
+        "img4"
+        "img5"
+        "img6"
+        "img7"
+        "img8";
+}

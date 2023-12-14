@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1200px) {
-    .body {
+    body {
         background-color: $pantallachica;
     }
 
@@ -16,18 +16,12 @@
     }
 
     .fotos-clientas {
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas: "texto texto"
-            "img1 img2"
-            "img3 img4"
-            "img5 img6"
-            "img7 img8";
-
+       @include grid-columns-areas-mq1;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    .body {
+    body {
         background-color: $tablet;
     }
 
@@ -50,22 +44,12 @@
     }
 
     .fotos-clientas {
-        grid-template-columns: 1fr;
-        grid-template-areas: "texto"
-            "img1"
-            "img2"
-            "img3"
-            "img4"
-            "img5"
-            "img6"
-            "img7"
-            "img8";
-
+        @include grid-columns-areas-mq2;
     }
 }
 
 @media only screen and (max-width: 500px) {
-    .body {
+    body {
         background-color: $movil;
     }
 }

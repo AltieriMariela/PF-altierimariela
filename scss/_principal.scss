@@ -16,11 +16,16 @@
     }
 }
 
-.p {
+img {
+    font-weight: 350px;
+    height: 350px;
+}
+
+p {
     @include parrafo;
 }
 
-.ul {
+ul {
     list-style-type: none;
     font-family: $lista;
 }
@@ -82,9 +87,6 @@
 }
 
 .img {
-    font-weight: 350px;
-    height: 350px;
-
     &-1 {
         grid-area: img1;
     }
