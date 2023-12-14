@@ -1,0 +1,188 @@
+.h {
+    &1 {
+        font-family: $titulo1;
+        background-color: $colortitulo1;
+        @include flex-just (center);
+    }
+
+    &2 {
+        font-family: $titulo2-3;
+        margin: 10px;
+    }
+
+    &3 {
+        font-family:$titulo2-3;
+        margin: 10px;
+    }
+}
+
+img {
+    font-weight: 350px;
+    height: 350px;
+}
+
+p {
+    @include parrafo;
+}
+
+ul {
+    list-style-type: none;
+    font-family: $lista; 
+}
+
+.pagina-principal {
+    background-color: $colorfondo;
+    display: grid;
+    flex-flow: row wrap;
+}
+
+.menu {
+    font-family: $textos;
+    font-size: 20px;
+    @include flex-just (center);
+
+    ul {
+        @include flex-just (space-around);
+        width: 100%;
+    }
+}
+
+.frase-coco-chanel {
+    @include flex-just (center);
+    flex-wrap: wrap;
+    margin: 20px 20px;
+}
+
+.img-logo {
+    @include flex-just (center);
+    width: 100%;
+    flex-flow: row wrap;
+    display: grid;
+
+    img {
+        margin: 40px 40px;
+        width: 750px;
+
+    }
+}
+
+.momento-creativo {
+    @include flex-just (space-around);
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.fotos-clientas {
+
+    @include grid-columns-areas;
+    width: 100%;
+    height: 100%;
+    justify-items: center;
+    gap: 20px;
+
+    h2 {
+        grid-area: texto;
+    
+    }
+}
+
+.img {
+     &-1 {
+        grid-area: img1;
+    }
+
+    &-2 {
+        grid-area: img2;
+    
+    }
+
+    &-3 {
+        grid-area: img3;
+    
+    }
+
+    &-4 {
+        grid-area: img4;
+    
+    }
+
+    &-5 {
+        grid-area: img5;
+    
+    }
+
+    &-6 {
+        grid-area: img6;
+    
+    }
+
+    &-7 {
+        grid-area: img7;
+    
+    }
+
+    &-8 {
+        grid-area: img8;
+    
+    }
+}
+
+.home {
+    @include color-decoration (none, blueviolet);
+
+    &:hover {
+        @include color-decoration (underline, blue);
+    }
+
+    &:visited {
+        color: crimson;
+    }
+}
+
+.conoceme {
+    @include color-decoration (none, blueviolet);
+
+    &:hover {
+        @include color-decoration (underline, blue);
+    }
+    
+    &:visited {
+        color: crimson;
+    }
+}
+
+.diseños {
+    @include color-decoration (none, blueviolet);
+
+    &:hover {
+        @include color-decoration (underline, blue);
+    }
+
+    &:visited {
+        color: crimson;
+    }
+}
+
+.galeria {
+    @include color-decoration (none, blueviolet);
+
+    &:hover {
+        @include color-decoration (underline, blue);
+    }
+
+    &:visited {
+        color: crimson;
+    }
+}
+
+.contactame {
+    @include color-decoration (none, blueviolet);
+
+    &:hover {
+        @include color-decoration (underline, blue);
+    }
+
+    &:visited {
+        color: crimson;
+    }
+}

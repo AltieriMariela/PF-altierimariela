@@ -1,0 +1,28 @@
+@mixin flex-just ($j-c) {
+    display: flex;
+    justify-content: $j-c;
+}
+
+@mixin color-decoration ($t-d, $c){
+    text-decoration: $t-d;
+    color: $c;
+}
+
+@mixin parrafo {
+    font-family: $textos;
+    font-size: 16px;
+    font-style: italic;
+    text-align: justify;
+    display: flex;
+    margin: 20px;
+}
+
+@mixin grid-columns-areas {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:"texto texto texto"
+    "img1 img2 img3"
+    "img4 img5 img6"
+    "img7 img8 .";
+}
+

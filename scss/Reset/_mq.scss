@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1200px) {
     body {
-        background-color: blueviolet;
+        background-color: $pantallachica;
     }
 
     .img {
@@ -28,7 +28,7 @@
 
 @media only screen and (max-width: 768px) {
     body {
-        background-color: rgb(224, 122, 143);
+        background-color: $tablet;
     }
 
     .img {
@@ -62,11 +62,10 @@
             "img8";
 
     }
-
 }
 
 @media only screen and (max-width: 500px) {
     body {
-        background-color: rgb(224, 122, 143);
+        background-color: $movil;
     }
 }
