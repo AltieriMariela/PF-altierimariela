@@ -11,23 +11,18 @@
     }
 
     &3 {
-        font-family:$titulo2-3;
+        font-family: $titulo2-3;
         margin: 10px;
     }
 }
 
-img {
-    font-weight: 350px;
-    height: 350px;
-}
-
-p {
+.p {
     @include parrafo;
 }
 
-ul {
+.ul {
     list-style-type: none;
-    font-family: $lista; 
+    font-family: $lista;
 }
 
 .pagina-principal {
@@ -82,48 +77,51 @@ ul {
 
     h2 {
         grid-area: texto;
-    
+
     }
 }
 
 .img {
-     &-1 {
+    font-weight: 350px;
+    height: 350px;
+
+    &-1 {
         grid-area: img1;
     }
 
     &-2 {
         grid-area: img2;
-    
+
     }
 
     &-3 {
         grid-area: img3;
-    
+
     }
 
     &-4 {
         grid-area: img4;
-    
+
     }
 
     &-5 {
         grid-area: img5;
-    
+
     }
 
     &-6 {
         grid-area: img6;
-    
+
     }
 
     &-7 {
         grid-area: img7;
-    
+
     }
 
     &-8 {
         grid-area: img8;
-    
+
     }
 }
 
@@ -145,7 +143,7 @@ ul {
     &:hover {
         @include color-decoration (underline, blue);
     }
-    
+
     &:visited {
         color: crimson;
     }

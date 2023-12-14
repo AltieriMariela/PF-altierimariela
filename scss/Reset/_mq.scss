@@ -1,5 +1,5 @@
 @media only screen and (max-width: 1200px) {
-    body {
+    .body {
         background-color: $pantallachica;
     }
 
@@ -27,7 +27,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    body {
+    .body {
         background-color: $tablet;
     }
 
@@ -65,7 +65,7 @@
 }
 
 @media only screen and (max-width: 500px) {
-    body {
+    .body {
         background-color: $movil;
     }
 }
