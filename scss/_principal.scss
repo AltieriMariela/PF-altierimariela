@@ -3,11 +3,6 @@
         font-family: $titulo1;
         background-color: $colortitulo1;
         @include flex-just (center);
-
-        .slide-fwd-top {
-            -webkit-animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-            animation: slide-fwd-top 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        }
     }
 
     &2 {
@@ -18,28 +13,6 @@
     &3 {
         font-family: $titulo2-3;
         margin: 10px;
-    }
-}
-@-webkit-keyframes slide-fwd-top {
-    0% {
-      -webkit-transform: translateZ(0) translateY(0);
-              transform: translateZ(0) translateY(0);
-    }
-    100% {
-      -webkit-transform: translateZ(160px) translateY(-100px);
-              transform: translateZ(160px) translateY(-100px);
-    }
-  }
-
-@keyframes slide-fwd-top {
-    0% {
-        -webkit-transform: translateZ(0) translateY(0);
-        transform: translateZ(0) translateY(0);
-    }
-
-    100% {
-        -webkit-transform: translateZ(160px) translateY(-100px);
-        transform: translateZ(160px) translateY(-100px);
     }
 }
 
