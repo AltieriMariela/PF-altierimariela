@@ -1,22 +1,32 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
-h1 {
+.h1 {
   font-family: "Young Serif", serif;
   background-color: rgb(196, 172, 218);
   display: flex;
   justify-content: center;
 }
-
-h2 {
+.h1 .slide-fwd-top {
+  animation: slide-fwd-top 0.45s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+.h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px;
+}
+.h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 10px;
 }
 
-h3 {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  margin: 10px;
+@keyframes slide-fwd-top {
+  0% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+  }
+  100% {
+    -webkit-transform: translateZ(160px) translateY(-100px);
+    transform: translateZ(160px) translateY(-100px);
+  }
 }
-
 img {
   font-weight: 350px;
   height: 350px;
@@ -37,6 +47,8 @@ ul {
 }
 
 .pagina-principal {
+  background: rgb(63, 198, 251);
+  background: radial-gradient(circle, rgba(63, 198, 251, 0.6965161064) 35%, rgba(70, 81, 252, 0.3603816527) 84%);
   background-color: rgb(128, 165, 214);
   display: grid;
   flex-flow: row wrap;
@@ -127,7 +139,7 @@ ul {
   color: blue;
 }
 .home:visited {
-  color: crimson;
+  color: rgba(165, 11, 62, 0.664);
 }
 
 .conoceme {
@@ -139,7 +151,7 @@ ul {
   color: blue;
 }
 .conoceme:visited {
-  color: crimson;
+  color: rgba(165, 11, 62, 0.664);
 }
 
 .diseños {
@@ -151,7 +163,7 @@ ul {
   color: blue;
 }
 .diseños:visited {
-  color: crimson;
+  color: rgba(165, 11, 62, 0.664);
 }
 
 .galeria {
@@ -163,7 +175,7 @@ ul {
   color: blue;
 }
 .galeria:visited {
-  color: crimson;
+  color: rgba(165, 11, 62, 0.664);
 }
 
 .contactame {
@@ -175,7 +187,7 @@ ul {
   color: blue;
 }
 .contactame:visited {
-  color: crimson;
+  color: rgba(165, 11, 62, 0.664);
 }
 
 @media only screen and (max-width: 1200px) {
