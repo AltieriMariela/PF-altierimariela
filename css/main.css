@@ -1,15 +1,18 @@
 @charset "UTF-8";
-.h1 {
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+h1 {
   font-family: "Young Serif", serif;
   background-color: rgb(196, 172, 218);
   display: flex;
   justify-content: center;
 }
-.h2 {
+
+h2 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 10px;
 }
-.h3 {
+
+h3 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin: 10px;
 }
@@ -188,6 +191,7 @@ ul {
     width: 100%;
   }
   .fotos-clientas {
+    display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "texto texto" "img1 img2" "img3 img4" "img5 img6" "img7 img8";
   }
