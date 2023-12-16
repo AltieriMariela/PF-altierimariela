@@ -15,7 +15,6 @@ h3 {
     margin: 10px;
 }
 
-
 @keyframes tracking-in-contract-bck {
     0% {
         letter-spacing: 1em;
@@ -85,8 +84,6 @@ ul {
         opacity: 1;
     }
 }
-
-
 
 .img-logo {
     @include flex-just (center);
@@ -176,7 +173,6 @@ ul {
         opacity: 1;
     }
 }
-
 
 .home {
     @include color-decoration (none, blueviolet);
