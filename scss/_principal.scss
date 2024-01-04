@@ -46,10 +46,13 @@ ul {
     font-family: $lista;
 }
 
+body {
+    background: $colorfondo;
+}
+
 .pagina-principal {
     background: rgb(63, 198, 251);
     background: radial-gradient(circle, rgba(63, 198, 251, 0.6965161064425771) 35%, rgba(70, 81, 252, 0.3603816526610645) 84%);
-    background-color: $colorfondo;
     display: grid;
     flex-flow: row wrap;
 }

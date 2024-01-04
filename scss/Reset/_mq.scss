@@ -52,4 +52,16 @@
     body {
         background-color: $movil;
     }
+
+    .img {
+        &-logo img {
+            margin:10%;
+            width: 80%;
+        }
+
+        &-coco-chanel {
+            margin: 10px;
+            width: 85%;
+        }
+    }
 }

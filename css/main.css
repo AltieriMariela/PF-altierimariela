@@ -50,10 +50,13 @@ ul {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+  background: rgb(243, 216, 247);
+}
+
 .pagina-principal {
   background: rgb(63, 198, 251);
   background: radial-gradient(circle, rgba(63, 198, 251, 0.6965161064) 35%, rgba(70, 81, 252, 0.3603816527) 84%);
-  background-color: rgb(128, 165, 214);
   display: grid;
   flex-flow: row wrap;
 }
@@ -227,7 +230,7 @@ ul {
 
 @media only screen and (max-width: 1200px) {
   body {
-    background-color: blueviolet;
+    background-color: rgb(194, 222, 255);
   }
   .img-logo img {
     margin: 20px;
@@ -245,7 +248,7 @@ ul {
 }
 @media only screen and (max-width: 768px) {
   body {
-    background-color: rgb(224, 122, 143);
+    background-color: rgb(225, 208, 247);
   }
   .img-logo img {
     margin: 10px;
@@ -267,7 +270,15 @@ ul {
 }
 @media only screen and (max-width: 500px) {
   body {
-    background-color: rgb(224, 122, 143);
+    background-color: rgb(174, 192, 240);
+  }
+  .img-logo img {
+    margin: 10%;
+    width: 80%;
+  }
+  .img-coco-chanel {
+    margin: 10px;
+    width: 85%;
   }
 }
 
